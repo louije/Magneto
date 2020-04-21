@@ -30,6 +30,7 @@
 		065F4D0A244F285200EBFC80 /* magneto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magneto.png; sourceTree = "<group>"; };
 		065F4D0C244F2EAA00EBFC80 /* MagnetLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetLink.swift; sourceTree = "<group>"; };
 		065F4D0E244F700D00EBFC80 /* ShortcutOpener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutOpener.swift; sourceTree = "<group>"; };
+		065F4D10244F73BD00EBFC80 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				065F4D0A244F285200EBFC80 /* magneto.png */,
+				065F4D10244F73BD00EBFC80 /* README.md */,
 				065F4CF5244F23B000EBFC80 /* Magneto */,
 				065F4CF4244F23B000EBFC80 /* Products */,
 			);
