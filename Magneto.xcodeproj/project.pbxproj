@@ -16,6 +16,8 @@
 		065F4D0B244F285300EBFC80 /* magneto.png in Resources */ = {isa = PBXBuildFile; fileRef = 065F4D0A244F285200EBFC80 /* magneto.png */; };
 		065F4D0D244F2EAA00EBFC80 /* MagnetLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065F4D0C244F2EAA00EBFC80 /* MagnetLink.swift */; };
 		065F4D0F244F700D00EBFC80 /* ShortcutOpener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065F4D0E244F700D00EBFC80 /* ShortcutOpener.swift */; };
+		065F4D13244F78F700EBFC80 /* app-ui.png in Resources */ = {isa = PBXBuildFile; fileRef = 065F4D11244F78F700EBFC80 /* app-ui.png */; };
+		065F4D14244F78F700EBFC80 /* shortcut.png in Resources */ = {isa = PBXBuildFile; fileRef = 065F4D12244F78F700EBFC80 /* shortcut.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		065F4D0C244F2EAA00EBFC80 /* MagnetLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetLink.swift; sourceTree = "<group>"; };
 		065F4D0E244F700D00EBFC80 /* ShortcutOpener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutOpener.swift; sourceTree = "<group>"; };
 		065F4D10244F73BD00EBFC80 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		065F4D11244F78F700EBFC80 /* app-ui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-ui.png"; sourceTree = "<group>"; };
+		065F4D12244F78F700EBFC80 /* shortcut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shortcut.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,8 +51,8 @@
 		065F4CEA244F23AE00EBFC80 = {
 			isa = PBXGroup;
 			children = (
-				065F4D0A244F285200EBFC80 /* magneto.png */,
 				065F4D10244F73BD00EBFC80 /* README.md */,
+				065F4D15244F78FF00EBFC80 /* Illustrations */,
 				065F4CF5244F23B000EBFC80 /* Magneto */,
 				065F4CF4244F23B000EBFC80 /* Products */,
 			);
@@ -84,6 +88,16 @@
 				065F4CFF244F23B600EBFC80 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		065F4D15244F78FF00EBFC80 /* Illustrations */ = {
+			isa = PBXGroup;
+			children = (
+				065F4D0A244F285200EBFC80 /* magneto.png */,
+				065F4D11244F78F700EBFC80 /* app-ui.png */,
+				065F4D12244F78F700EBFC80 /* shortcut.png */,
+			);
+			name = Illustrations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +161,9 @@
 				065F4D03244F23B600EBFC80 /* LaunchScreen.storyboard in Resources */,
 				065F4D0B244F285300EBFC80 /* magneto.png in Resources */,
 				065F4D00244F23B600EBFC80 /* Preview Assets.xcassets in Resources */,
+				065F4D13244F78F700EBFC80 /* app-ui.png in Resources */,
 				065F4CFD244F23B600EBFC80 /* Assets.xcassets in Resources */,
+				065F4D14244F78F700EBFC80 /* shortcut.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
