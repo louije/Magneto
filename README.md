@@ -1,6 +1,6 @@
 #  Magneto
 
-This utility app registers the `magnet:` URL scheme, quickly parses the link and offers to launch a shortcut called **Open Magnet Link** with the magnet link as input.
+This utility app registers the `magnet:` URL scheme on an iOS device, quickly parses the link and offers to launch a Siri Shortcut called **Open Magnet Link** with the magnet link as input.
 
 ## Motivation
 
@@ -16,8 +16,6 @@ iOS Safari does not make it easy to copy links using schemes it does not recogni
 Configuration example for the Run Script over SSH action
 
 ---
-
-![Magneto Helmet](magneto.png)
 
 The code is public domain.  
 [Magneto Helmet by Joe Van Wetering](https://dribbble.com/shots/1856877-Magneto-Helmet)

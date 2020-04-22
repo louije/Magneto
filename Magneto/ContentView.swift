@@ -33,7 +33,7 @@ struct ContentView: View {
                 .disabled(!link.isValid)
             )
         }
-        return AnyView(Text("No valid magnet link received"))
+        return AnyView(Text("Tap on a magnet: link in Safari"))
     }
     
     var body: some View {
